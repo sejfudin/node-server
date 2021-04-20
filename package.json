@@ -1,0 +1,24 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "My First NodeJS server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejfudin/node-server.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Sejfudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sejfudin/node-server/issues"
+  },
+  "homepage": "https://github.com/sejfudin/node-server#readme"
+}
