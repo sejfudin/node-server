@@ -1,9 +1,11 @@
-const http = require('http');
+const express = require('express');
+const router = require('./router');
+const PORT = 5000;
 
-const requestHandler = (req, res) => {
-    console.log(req.url);
-    res.end('hello Node Server!');
-}
-const server = http.createServer(requestHandler);// pointer to the function requesrhandler
+const app = express(); //app object initialization 
+router(app);
 
-server.listen(5000);
+app.listen(PORT, error => {
+    if (error) return console.log(error);
+    console.log(`Server is listening on port ${PORT}`);
+});
