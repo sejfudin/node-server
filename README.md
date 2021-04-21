@@ -3,12 +3,14 @@
 After cloning a project node_modules should be installed:
 
 npm install
+
 This command will install all necessary modules for this app
 Correct versions of modules can be found in package.json file
 
 In the project directory, you can run:
 
 npm start
+
 Runs the app in the development mode.
 Open http://localhost:5000 to view it in the browser.
 
